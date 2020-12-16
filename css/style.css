@@ -45,6 +45,7 @@
 body {
     background: #292A2D;
     font-family: 'Cambria';
+    font-family: sans-serif;
 }
 .container {
     width: 1230px;
@@ -217,7 +218,7 @@ nav ul li {
 [data-tooltip]::after {
     content: attr(data-tooltip); /* Выводим текст */
     position: absolute; /* Абсолютное позиционирование */
-    left: 0; top: 0; /* Положение подсказки */
+    left: 0; top: -30px; /* Положение подсказки */
     background: #3C3C3C; 
     color: #fff; /* Цвет текста */
     padding: 2px; /* Поля вокруг текста */
@@ -225,13 +226,14 @@ nav ul li {
     pointer-events: none; /* Подсказка */
     opacity: 0; /* Подсказка невидима */
     border-radius: 5px;
+    font-size: 14px;
     transition: .4s; /* Время появления подсказки */
 } 
 
 [data-tooltip]:hover::after {
     opacity: 1; /* Показываем подсказку */
     top: -60px; /* Положение подсказки */
-    left: -1px;
+    left: 0px;
 }
 .menu li:hover {
     transform: scale(1.2);
@@ -388,6 +390,34 @@ nav ul li {
     width: 68%;
     background-color: #8E8F90;
     height: 7px;
+}
+
+.education_title {
+    margin-top: 0;
+}
+#block img {
+    display: block;
+    text-align: center;
+}
+.info_content{
+    display: block;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+    background-color: #757575;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.info_descr-link {
+    margin-top: 50px;
+    text-align: center;
+}
+.info_content_block p a img{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
