@@ -123,20 +123,35 @@ body {
     line-height: 42px;
     margin-top: 150px;
 }
+.info_title__title {
+    line-height: 65px;
+}
 .title {
     margin-top: 0;
+
 }
 .info_descr {
-    margin-top: 100px;   
+    margin-top: 70px;   
     color: #CCCCCC;
-    line-height: 20px;
     font-size: 17px;
     line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.info_descr_wth {
+    width: 580px;
+}
+.info_title__descr {
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.info_title__descr_mt {
+    margin-top: 50px;
+    margin-bottom: -25px;
 }
 .info_descr span {
     color: #fff;
     font-weight: 600;
-    font-size: 17px;
 }
 .info_descr p{
     margin-bottom: 25px;
@@ -286,15 +301,23 @@ nav ul li {
     font-size: 16px;
     text-align: left;
     list-style-type: none;
-    font-weight: 400;
+    font-family: 'Cambria';
+    font-family: sans-serif;
+        font-size: 17px;
+    line-height: 32px;
 }
 .info_list li {
     border-bottom: 1px dashed #000;
     margin-bottom: 5px;
+    font-weight: 600;
+    font-family: 'Cambria';
+    font-family: sans-serif;
 }
 .info_list span {
     text-align: right;
     float: right;
+    font-weight: 400;
+    font-family: 'Cambria' serif;
 }
 .info_list span a {
     color: #fff;
@@ -313,7 +336,7 @@ nav ul li {
     font-family: 'Open Sans', sans-serif;
 }
 .skills_info-list span {
-    color: #8E8F90;
+    color: #b6bcc1;
     padding-right: 15px;
     font-family: 'Cambria'; 
 }
@@ -443,9 +466,68 @@ nav ul li {
 }
 
 .contact_form {
-    width: 600px;
+    width: 480px;
+    margin: 50px auto 0;
+
+}
+.form input {
+    border: 2px solid black;
+    width: 450px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    margin-top: 15px;
+    padding: 5px 10px;
+    outline: none;
+}
+.form button {
+    display: block;
+    margin-top: 15px;
+    width: 470px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+
+}
+.form button:hover {
+    background-color: grey;
+    transition: 1s;
+    transform: scale(1.05);
+    font-size: 18px;
+    font-weight: 600;
+}
+.form textarea {
+    margin-top: 15px;
+    width: 450px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    padding: 5px 10px;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    color: #6F6F6F;
 }
 
+
+.contact_info_descriprion {
+    color: #CCCCCC;
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 50px;
+    
+}
+.contact_info_descriprion a{
+    color: #fff;
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 
