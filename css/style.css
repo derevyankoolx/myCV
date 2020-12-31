@@ -590,6 +590,23 @@ nav ul li {
 @media screen and (max-width: 1200px) {
     .container{
         width: 960px;
+        position: relative;
+    }
+    .wrap {
+        display: block;
+        height: 645px;
+    }
+    .info {
+        position: absolute;
+        top: -70px;
+        left: 20%;
+    }
+    .slider {
+        width: 600px;
+        margin: 400px auto 0 auto;
+    }
+    .title {
+        margin-top: 50px;
     }
 }
 
@@ -597,6 +614,15 @@ nav ul li {
 @media screen and (max-width: 992px) {
     .container{
         width: 720px;
+        position: relative;
+    }
+    .slider {
+        width: 540px;
+    }
+    .info {
+        position: absolute;
+        top: -35px;
+        left: 13%;
     }
 }  
 
@@ -605,11 +631,44 @@ nav ul li {
     .container{
         width: 540px;
     }
+    .slider {
+        width: 470px;
+    }
+    .slider img {
+        height: 530px;
+    }
+    .info {
+        position: absolute;
+        top: -54px;
+        left: -10px;
+    }
 }
+
 
 /* 0px - 576px  */
 @media screen and (max-width: 576px) {
     .container{
         width: 90%;
+        margin: 0 auto;
+    }
+    .slider {
+        display: none;
+    }
+    .info_title {
+        font-size: 28px;
+    }
+    .info_title p {
+        font-size: 25px;
+    }
+    .info {
+        position: absolute;
+        top: 52px;
+        left: -4%;
+    }
+    .main-menu {
+        width: 330px;
+    }
+    .menu li{
+        margin: 0;
     }
 }
